@@ -24,3 +24,6 @@ Run `python Get_pred.py`, we will get `pred_label_all.txt`, which contains top-1
 
 ## Evaluation
 Run `python Eval.py` to get some stats and plots of the results. We also consult `ecdict.csv` to check the accuracy of translation.
+
+PS: The following files are not pushed due to file size:
+`mono-en-scaled`, `wordvectorAll.txt`, `en_tr_embed.txt`, `zh_tr_embed.txt`
