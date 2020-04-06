@@ -18,7 +18,7 @@ Run `python nnlinreg4xv.py --traininput en_tr_embed.txt --trainoutput`<br>`zh_tr
 where `pruned_mono_en_scaled.txt` has the same content as `mono-en-scaled` except skipping the first line headers. `en-projected_new.txt` is the predicted translation embeddings for English test words.
 
 ## Translating
-Run `python Get_idx&predEmbed.py`, we will get `pred_embed.txt`. Each line of this file contains: a test english word + index + projected embedding in `en-projected_new.txt`. Index is the line number of the test word's embedding in `pruned_mono_en_scale.txt`
+Run `python Get_idx_predEmbed.py`, we will get `pred_embed.txt`. Each line of this file contains: a test english word + index + projected embedding in `en-projected_new.txt`. Index is the line number of the test word's embedding in `pruned_mono_en_scale.txt`
 
 Run `python Get_pred.py`, we will get `pred_label_all.txt`, which contains top-10 translation candidates and corresponding cosine similarity with predicted embedding.
 
